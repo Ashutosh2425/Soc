@@ -1,1 +1,1 @@
-These are the files than conatain the solved answers.
+These are the files that conatain the solved answers.

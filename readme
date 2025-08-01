@@ -1,13 +1,19 @@
 Stock Price Prediction Using LSTM
 
 Objective
-To develop a deep learning model using LSTM (Long Short-Term Memory) to forecast the next 15 days of a stock's adjusted closing price based on historical data and technical indicators.
+To develop a deep learning model using LSTM (Long Short-Term Memory) that forecasts the next 15 days of a stock's adjusted closing price, leveraging historical price data and technical indicators.
 
 Key Features
 
-Accepts user input for stock symbol, date range, and timeframe
+Accepts user input:
 
-Fetches historical stock data using Yahoo Finance via the yfinance library
+Stock symbol
+
+Date range
+
+Timeframe (daily/weekly)
+
+Fetches historical stock data using yfinance
 
 Computes and visualizes:
 
@@ -19,7 +25,7 @@ RSI (Relative Strength Index)
 
 Prepares sequences using the past 60 days of data to predict the next 15 days
 
-Trains an LSTM-based model using Keras (TensorFlow backend)
+Trains an LSTM model using Keras (TensorFlow backend)
 
 Predicts future prices and compares them with actual values
 
@@ -33,7 +39,7 @@ yfinance
 
 pandas, numpy, matplotlib
 
-ta (for technical indicators)
+ta (technical analysis library)
 
 scikit-learn
 
@@ -47,11 +53,21 @@ Plots of MACD and RSI over the selected time range
 
 How to Run the Project
 
-Clone the repository
+Clone the repository:
 
-Install the dependencies using:
+bash
+Copy
+Edit
+git clone <repository_url>
+cd <repository_folder>
+Install the dependencies:
+
+nginx
+Copy
+Edit
 pip install -r requirements.txt
-
+Run the notebook:
+Open final_pred.ipynb in Jupyter Notebook or Jupyter Lab.
 
 
 
